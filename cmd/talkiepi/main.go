@@ -15,7 +15,7 @@ import (
 
 func main() {
 	// Command line flags
-	server := flag.String("server", "talkiepi.projectable.me:64738", "the server to connect to")
+	server := flag.String("server", "", "the server to connect to")
 	username := flag.String("username", "", "the username of the client")
 	password := flag.String("password", "", "the password of the server")
 	insecure := flag.Bool("insecure", true, "skip server certificate verification")
